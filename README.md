@@ -56,8 +56,9 @@ If that happens, the user agent has a few different options
 for resolving the ambiguity, described in later sections.
 
 Representations of odd links may differ between markup
-languages, but they _always_ include a content hash. The
-authority and strategy are optional.
+languages, but they _always_ include a content hash and an
+authority (e.g. the href attribute in the example above).
+The strategy is optional.
 
 ## Requesting Content
 
